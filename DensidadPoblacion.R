@@ -98,7 +98,7 @@ map <- deckgl::deckgl(
     deckgl::use_carto_style()
   )
 
-# 6. EXPORTAr COMO HTML
+# 6. EXPORTAR COMO HTML
 
 htmlwidgets::saveWidget(
   map, file = "map.html",
